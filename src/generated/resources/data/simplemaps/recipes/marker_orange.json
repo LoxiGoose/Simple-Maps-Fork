@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "minecraft:chiseled_stone_bricks"
+    },
+    "C": {
+      "item": "minecraft:compass"
+    },
+    "D": {
+      "item": "minecraft:orange_dye"
+    }
+  },
   "pattern": [
     " C ",
     "BDB",
     "BBB"
   ],
-  "key": {
-    "D": {
-      "item": "minecraft:orange_dye"
-    },
-    "C": {
-      "item": "minecraft:compass"
-    },
-    "B": {
-      "item": "minecraft:chiseled_stone_bricks"
-    }
-  },
   "result": {
     "item": "simplemaps:marker_orange"
   }

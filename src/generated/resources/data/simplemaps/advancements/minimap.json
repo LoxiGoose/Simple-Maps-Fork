@@ -1,26 +1,26 @@
 {
   "parent": "simplemaps:root",
+  "criteria": {
+    "on_use": {
+      "conditions": {
+        "is_minimap": true
+      },
+      "trigger": "simplemaps:use_map_unlocker"
+    }
+  },
   "display": {
-    "icon": {
-      "item": "simplemaps:minimap"
-    },
-    "title": {
-      "translate": "advancement.simplemaps:minimap"
-    },
+    "announce_to_chat": true,
     "description": {
       "translate": "advancement.simplemaps:minimap.desc"
     },
     "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "simplemaps:minimap"
+    },
     "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "on_use": {
-      "trigger": "simplemaps:use_map_unlocker",
-      "conditions": {
-        "is_minimap": true
-      }
+    "title": {
+      "translate": "advancement.simplemaps:minimap"
     }
   },
   "requirements": [
