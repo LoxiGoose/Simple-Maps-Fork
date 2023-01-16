@@ -1,0 +1,14 @@
+{
+  "type": "simplemaps:loot",
+  "chance": 1,
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/village/village_cartographer"
+    },
+    {
+      "chance": 0.8,
+      "condition": "minecraft:random_chance"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "tick": {
+      "conditions": {},
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/block/cartography_table_side3.png",
+    "description": {
+      "translate": "advancement.simplemaps:root.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:compass"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.simplemaps:root"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "simplemaps:loot",
+  "chance": 1,
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/stronghold_library"
+    },
+    {
+      "chance": 0.5,
+      "condition": "minecraft:random_chance"
+    }
+  ]
+}
